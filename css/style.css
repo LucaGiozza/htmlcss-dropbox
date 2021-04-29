@@ -33,13 +33,11 @@ header{
     line-height: 70px;
 
 }
-
-
-
 nav{
     text-align: center;
     margin-left: 10px;
     height: 70px;
+    
 
 }
 
@@ -51,6 +49,7 @@ nav li a{
     text-decoration: none;
     
     font-size: 18px;
+    
     
 }
 .btn{
@@ -65,4 +64,55 @@ a{
     padding: 10px;
     color: white;
 }
+/* jumbotron */
+.jumbotron{
+    height: 800px;
+    background-color:#b4d0e7 ;
+    position: relative;
+}
+.title-jumbotron{
+    max-width: 1200px;
+font-size: 30px;
+margin-left: 170px;
+padding-top: 80px;
+
+}
+.jumbo-text{
+    max-width: 410px;
+    line-height: 35px;
+    font-size: 20px;
+    padding-top: 60px;
+}
+.piano{
+    height: 500px;
+    background-color: red;
+}
+.proposta-cliente{
+    margin-left: 450px;
+    margin-top: -200px;
+    height: 650px;
+    
+}
+.prova{
+    position: absolute;
+    bottom: 210px;
+    background-color:#0061ff ;
+    padding: 4px 8px;
+    color: white;
+}
+.annulla{
+    position: absolute;
+    bottom: 140px;
+    font-size: 20px;
+}
+.arrow{
+   font-size: 60px;
+    position: absolute;
+    bottom: 60px;
+    
+    
+    ;
+}  
+}
+
 
