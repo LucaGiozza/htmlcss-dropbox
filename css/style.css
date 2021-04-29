@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: AtlasGrotesk, sans-serif;
 }
+/* header */
  .fab{
     color:#0061ff ;
 }
@@ -27,7 +28,7 @@
     margin: 0 auto;
 }
 
-/* header */
+
 header{
     
     line-height: 70px;
@@ -64,6 +65,7 @@ a{
     padding: 10px;
     color: white;
 }
+
 /* jumbotron */
 .jumbotron{
     height: 800px;
@@ -83,10 +85,7 @@ padding-top: 80px;
     font-size: 20px;
     padding-top: 60px;
 }
-.piano{
-    height: 500px;
-    background-color: red;
-}
+
 .proposta-cliente{
     margin-left: 450px;
     margin-top: -200px;
@@ -109,10 +108,34 @@ padding-top: 80px;
    font-size: 60px;
     position: absolute;
     bottom: 60px;
-    
-    
-    ;
 }  
-}
 
+/* inizio main */
+
+/* prima sezione */
+.business{
+    height: 900px;
+    position:relative;
+}
+.piano-dropbox{
+   
+    position: absolute;
+    
+    
+    top: 280px;
+    left: 300px;
+    font-size: 50px;
+
+}
+.scelta{
+    position: absolute;
+    top: 44%;
+    left: 16%;
+    font-size: 23px;
+   
+   
+}
+.annuale{
+    margin-left: 18px;
+}
 
