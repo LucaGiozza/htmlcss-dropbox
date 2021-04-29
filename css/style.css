@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height:50px ;
+    background-color: red;
+}
+nav i{
+    color:#0061ff;
+    padding: 15px;
+    font-size: 20px;
+}
