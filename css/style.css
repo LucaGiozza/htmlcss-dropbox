@@ -249,7 +249,7 @@ padding: 20px;
     color: white;
 }
 .prova-gratis{
-    background-color: blue;
+    background-color:#0061ff;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
@@ -283,12 +283,65 @@ padding: 20px;
 }
 .acquista-ora a{
     text-decoration: underline;
-    color: blue;
+    color: #0061ff;
 }
 .colonna-orizzontale{
     height: 400px;
     width: 700px;
 }
+.colonna-orizzontale{
+    text-align: center;
+    height: 500px;
+    margin-top: 100px;
+    width: 100%;
+   
+}
+.contenuto-colonna-orizzontale{
+    border: 1px solid #b4d0e7  ;  
+    width: 1250px; 
+    margin-left: 150px;
+    position: relative;
+    
+}
+.team{
+    padding: 20px;
+    
+}
+.enterprise{
+    padding: 15px 15px;
+    text-align: left;
+    font-size: 30px;
+    
+    
+    
+}
+.ufficio{
+    padding: 15px 15px;
+    text-align: left;
+  font-size: 20px;
+}
+.soluzioni{
+    padding: 15px 15px;
+    text-align: left;
+}
+.contatta-ufficio{
+    padding: 15px 15px;
+    text-align: right;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    background-color:#0061ff ;
+}
+.contatta-ufficio a{
+    color: white;
+    text-decoration: none;
+}
+.contatta-ufficio:hover{
+    text-decoration: none;
+    background-color: #3b85ff;
+} 
+
+
     
 
 
