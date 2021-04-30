@@ -209,14 +209,14 @@ main img {
     
     
     top: 280px;
-    left: 300px;
+    left: 150px;
     font-size: 40px;
 
 }
 .scelta{
     position: absolute;
     top: 400px;
-    left: 300px;
+    left: 150px;
     font-size: 23px;
    
    
@@ -229,7 +229,7 @@ main img {
     
     border: 1px solid #b4d0e7 ;
     position: absolute;
-    left: 300px;
+    left: 150px;
     top:500px
 }
 .singolo{
@@ -270,7 +270,7 @@ padding: 20px;
     
     border: 1px solid #b4d0e7 ;
     position: absolute;
-    left: 750px;
+    left: 600px;
     top:500px 
 }
 .terza-tabella{
@@ -278,7 +278,7 @@ padding: 20px;
     
     border: 1px solid #b4d0e7 ;
     position: absolute;
-    left: 1200px;
+    left: 1050px;
     top:500px  
 }
 .acquista-ora a{
