@@ -11,46 +11,96 @@
 
 <body>
     <!-- inizio header -->
-    <header>
-        <div class="container">
-            <div class="row clearfix">
-                <div class="float-left">
-                    <i class="fab fa-dropbox">  </i>
-                    <span class="text-logo"> <strong>Dropbox</strong> </span>
-                    
-                </div>
-                <nav class="float-left">
-                    <ul>
-                        <li><a href="#">Perchè Dropbox</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                        <li><a href="#">Piani e prezzi</a></li>
-                        
-                    </ul>
-                </nav>
-                <div class="float-right">
-                    <a class="btn" href="#">Supporto</a>
-                    <a class="btn" href="#">Contatta l'ufficio venditore</a>
-                    <a class="btn" href="#">Accedi</a>
-                    <a id="start" class="btn" href="#">Inizia</a>
-                
-                </div>
-          </div>
-         </nav>
-            <div class="jumbotron">
-                <div class="title-jumbotron">
-                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                    <p class="jumbo-text">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <img class="proposta-cliente" src="img/prima.png" alt="cliente">
-                    <p class="prova"> Inizia la tua prova gratuita</p>
-                    <p class="annulla"> Annulla in qualsiasi momento</p>
-                    <p class="arrow">&#8595</p>
-
+    
+        <header class="prima-pagina">
+            <!-- la row qui non è strettamente necessaria visto che la H è fissa -->
+            <nav id="main-nav" class="row">
+                <!-- blocco SX -->
+                <ul>
+                    <li id="logo"> <!-- id per differenziare hover e centrare img -->
+                        <a href="#">
+                            <img src="img/logo-small.png" alt="logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Perch&egrave; Dropbox?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Funzioni
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Piani e prezzi
+                        </a>
+                    </li>
+                </ul>
+    
+                <!-- blocco DX -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            Supporto
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contatta l'ufficio vendite
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Accedi
+                        </a>
+                    </li>
+                    <li class="last">
+                        <a class="btn" href="#">
+                            Inizia
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
+        </header>
+    
+    
+        <!-- jumbotron -->
+        <section id="jumbo">
+            <div class="container-center">
+                <h1>
+                    Tutto ciò che ti serve per il lavoro, in un unico posto
+                </h1>
+                <div class="row">
+                    <!-- col SX -->
+                    <div class="col-sx">
+                        <p>
+                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <a class="btn" href="#">Inizia la tua prova gratuita</a>
+                        <span class="small">Annulla in qualsiasi momento</span>
+                        <div class="go-down">
+                            <a href="#plans">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                        </div>
+    
+                    </div>
+                    <!-- col DX -->
+                    <div class="col-dx">
+                        <img src="img/prima.png" alt="jumbo">
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- fine header -->
-
-    </header>
+        </section>
+    
+    
+    
+    
+       
+    
     <!-- inizio main -->
     <main>
         <!-- inizio prima sezione -->
@@ -126,14 +176,28 @@
                       
 
                    </div>
-
-               
+                   <div>
+                   
                   
                   
-                </div>
+                
 
             </div>
+            <div class="colonna-orizzontale">
+           
+           </div>
+
+       
+          
         </section>
+        <!-- inizio piccola sezione enterprise -->
+        <p class="team"><i class="fas fa-cheese"> Team</i></p>
+        <hr class="riga">
+        <h2 class="enterprise"> <strong> Enterprise</strong></h2>
+        <p class="ufficio">  <strong>Contatta l'ufficio vendite per i prezzi</strong> </p>
+        <p class="soluzioni"> Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+        <p class="contatta-ufficio"> <a href="#">Contatta l'ufficio vendite</a> </p>
+        <!-- fine piccola sezione enterprise -->
         
     </main>
     <!-- fine main -->
