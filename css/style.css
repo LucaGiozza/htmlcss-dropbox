@@ -8,6 +8,7 @@ body{
     font-family: 'Open Sans',sans-serif;
     
     overflow-x: hidden;
+   
     
     
 }
@@ -201,9 +202,11 @@ main img {
 
 
 /* prima sezione */
+
 .business{
     height: 1400px;
     position:relative;
+    
 }
 .piano-dropbox{
    
@@ -386,7 +389,7 @@ padding: 20px;
 }
 /* inizio sezione operazioni */
 .operation-business{
-    /* height: 900px; */
+    height: 1350px;
     width: 100%;
     margin-top: 250px;
 } 
@@ -496,6 +499,49 @@ slack-zoom a{
     margin-top: -897px;
     float: left;   
 }
+/* inizio sezione team */
+
+.title-team{
+    width: 83.333%;
+    max-width: 1080px;
+}
+.numero-team{
+    
+    margin-left: 20%;
+    max-width: 50.5%;
+    font-size:43px;
+}
+.scopri-di-piu{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #0061ff;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna-sinistra-team{
+    width: 33%;
+}
+.quadrati{
+    background-color: red;
+   height: 700px;
+   width: 100vw;
+   margin-top: 50px;
+   
+}
+.designit{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    float: left;
+    border: 1px solid black
+}
+
+
+
 
  
 
