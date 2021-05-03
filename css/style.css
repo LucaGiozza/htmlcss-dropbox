@@ -524,6 +524,7 @@ slack-zoom a{
 
 .colonna-sinistra-team{
     width: 33%;
+    float:left;
 }
 .quadrati{
     background-color: red;
@@ -534,11 +535,53 @@ slack-zoom a{
 }
 .designit{
     height: 250px;
-    width: 250px;
+    width:50%;
     background-color: white;
     float: left;
+    
     border: 1px solid black
 }
+.designit-2{
+    height: 250px;
+    width: 50%;
+    background-color: white;
+    float: left;
+    
+    border: 1px solid black  
+}
+.designit-3{
+    height: 250px;
+    width: 50%;
+    background-color: white;
+    float: left;
+    
+    border: 1px solid black  
+}
+.designit-4{
+    height: 250px;
+    width: 50%;
+    background-color: white;
+    float: left;
+    
+    border: 1px solid black  
+}
+
+.sezione-centrale-team{
+    width: 33%;
+   display: inline-block;
+    background-color: chartreuse;
+    height: 500px;
+    float: left;
+    
+}
+.colonna-destra-team{
+    height: 500px;
+    width: 33%;
+    background-color: pink;
+    float: left;
+    display: inline-block;
+}
+
 
 
 
