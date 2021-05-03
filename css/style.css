@@ -536,34 +536,73 @@ slack-zoom a{
 .designit{
     height: 250px;
     width:50%;
-    background-color: white;
+    background-color:#a2d39b;
     float: left;
+    line-height: 250px;
     
-    border: 1px solid black
+    border: 8px solid #d0e9cd;
 }
-.designit-2{
+.design-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px;
+    filter: invert(1); 
+    
+    
+}
+.asu{
     height: 250px;
     width: 50%;
-    background-color: white;
+    background-color:#61082b;
     float: left;
+    line-height: 250px;
     
     border: 1px solid black  
 }
-.designit-3{
+.asu-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px;
+    filter: invert(1); 
+    
+    
+}
+
+.florida{
     height: 250px;
     width: 50%;
-    background-color: white;
+    background-color:#0093ce;
     float: left;
+    line-height: 250px;
     
     border: 1px solid black  
 }
-.designit-4{
+.florida-foto{
+    width: 80%;
+    height: 17%;
+    vertical-align: middle;
+    margin: 0 25px;
+    filter: invert(1);
+    
+
+}
+.topps{
     height: 250px;
     width: 50%;
-    background-color: white;
+    background-color: #ff1c1c;
     float: left;
+    line-height: 250px;
     
     border: 1px solid black  
+}
+.topps-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px;
+    filter: invert(1); 
 }
 
 .sezione-centrale-team{
@@ -581,6 +620,71 @@ slack-zoom a{
     float: left;
     display: inline-block;
 }
+.bicycle{
+    height: 250px;
+    width:50%;
+    background-color: #d5001f;
+    float: left;
+    line-height: 250px;
+    
+    border: 1px solid black
+}
+.bicycle-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px; 
+    filter: invert(1);  
+}
+.hearst{
+    height: 250px;
+    width: 50%;
+    background-color:#b4d0e7 ;
+    float: left;
+    line-height: 250px;
+    
+    border: 1px solid black  
+}
+.hearst-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px;  
+    filter: invert(1); 
+}
+.lonely{
+    height: 250px;
+    width: 50%;
+    background-color: #0d2481;
+    float: left;
+    line-height: 250px;
+    
+    border: 1px solid black  
+}
+.lonely-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px;  
+    filter: invert(1); 
+}
+.outdoor{
+    height: 250px;
+    width: 50%;
+    background-color:#ffd830 ;
+    float: left;
+    line-height: 250px;
+    
+    border: 1px solid black  
+}
+.outdoor-foto{
+    width: 80%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 0 25px;  
+    filter: invert(1);  
+}
+
 
 
 
