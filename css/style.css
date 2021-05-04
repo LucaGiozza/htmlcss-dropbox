@@ -210,6 +210,11 @@ main img {
     width: 100vw;
     
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .piano-dropbox{
    width: 80%;
    
@@ -303,13 +308,18 @@ padding: 20px;
     margin: auto;
     width: 100vw;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .contenuto-colonna-orizzontale{
     border: 1px solid #b4d0e7  ;  
     width: 80%;
     margin:auto;
     position: relative;
-    
+    margin-bottom: 10%;
     
 }
 
@@ -355,36 +365,42 @@ padding: 20px;
     text-decoration: none;
     background-color: #3b85ff;
 } 
+
 /* sezione partner */
+.partner-dropbox{
+    width: 100vw;
+    
+}
 .partner-left{
-    height: 500px;
-    width: 100%;
+   
+    width: 80%;
+    margin: auto;
 }
 .foto-partner{
-    width: 750px;
-    height:600px;
-   margin-top: 150px;
-    margin-left: 150px;
+   height:80% ;
+   width: 45%;
+   
     
 }
 .titolo-partner{
-    margin-left: 1000px;
-    margin-top: -200px;
+    margin-top: -25%;
+    margin-left: 50%;
+    
+    margin-bottom: 2%;
     font-size:35px;
         
     
 }
   .descrizione-partner {
-    margin-left: 1000px;
-    margin-top: 50px;
-    font-size:20px;
-    max-width: 400px;
+   margin-left: 50%;
+    font-size:25px;
+    max-width: 500px;
+    margin-bottom: 2%;
    
    
 }
 .trova-partner{
-    margin-left: 1000px;
-    margin-top: 50px;
+   margin-left: 50%;
     font-size:20px;
     max-width: 250px;
     border: 1px solid black ;
