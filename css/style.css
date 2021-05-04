@@ -417,10 +417,13 @@ padding: 20px;
 /* inizio sezione operazioni */
 .operation-business{
     height: 1350px;
-    width: 100%;
+    width: 100vw;
     margin-top: 250px;
+    margin: auto;
+    
 } 
 .titolo-operazioni{
+    margin-top: 25%;
     text-align: center;
     font-size: 50px;
 }   
