@@ -401,8 +401,8 @@ padding: 20px;
 }
 .trova-partner{
    margin-left: 50%;
-    font-size:20px;
-    max-width: 250px;
+    font-size:30px;
+    max-width: 350px;
     border: 1px solid black ;
     text-align: center;
     padding: 10px;
@@ -416,9 +416,9 @@ padding: 20px;
 }
 /* inizio sezione operazioni */
 .operation-business{
-    height: 1350px;
+    
     width: 100vw;
-    margin-top: 250px;
+    
     margin: auto;
     
 } 
@@ -428,28 +428,26 @@ padding: 20px;
     font-size: 50px;
 }   
 /* prima foto tabella foto */
-.strumento{
-    height: 900px;
-    width: 250px;
-    background-image: url(../img/strumento.png);
-    max-width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 220px;
-    margin-top: 100px;
-    margin-right: 80px;
-    float: left;
 
+.strumento{
+    
+    width: 20%;
+   
+    margin-left: 10%;
+    float: left;
+    margin-top: 5%;
 }
+
 .titolo-strumento{
-    position: absolute;
-    top:230px;
-    font-size: 22px;
+    /* position: absolute;
+    top:230px; */
+    font-size: 35px;
+    margin-top: 2%;
+    margin-bottom: 4%;
 }
 .desc-stru{
-    position: absolute;
-    top: 300px;
+    /* position: absolute;
+    top: 300px; */
     color:#4d4d4d ;
     
 }
@@ -459,87 +457,76 @@ padding: 20px;
     clear: both;
 }
 /* seconda-foto tabella foto */
-.trasforma{
-    height: 900px;
-    width: 250px;
-    background-image: url(../img/proposta.png);
-    max-width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 80px;
-    float: left; 
-}
-/* terza-foto tabella foto */
-.collaborazione{
-    height: 900px;
-    width: 250px;
-    background-image: url(../img/collaborazione.png);
-    max-width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 100px;
-    margin-top: 105px;
-    float: left; 
-}
-/* quarta-foto-tabella foto */
-.zoom{
-    height: 900px;
-    width: 250px;
-    background-image: url(../img/zoom.png);
-    max-width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 220px;
-    margin-top: 700px;
-    
-}
-slack-zoom a{
-    text-decoration: none;
-}
-/* quinta-foto tabella foto */
- 
-.trasferisci{
-    height: 900px;
-    width: 250px;
-    background-image: url(../img/file.png);
-    max-width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 650px;
-    margin-top: -897px;
-    float: left;   
-}
-/* sesta-foto tabella foto */
 
-.fotocamera{
-    height: 900px;
-    width: 250px;
-    background-image: url(../img/fotocamera.png);
-    max-width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-left: 1090px;
-    margin-top: -897px;
-    float: left;   
+.trasforma{
+    /* height: 700px; */
+    width:20%;
+    
+    margin-left: 10%;
+    float: left;
+    margin-top: 5%;
+   
 }
+.titolo-trasforma{
+    font-size: 22px;
+}
+
+/* terza-foto-tabella foto */
+.collaborazione{
+   
+    width:20%;
+   
+    margin-left: 10%;
+    float: left;
+    margin-top:5%;  
+}
+.seconda-fila{
+    margin-bottom:10%
+}
+/* quarta-foto */
+.strumento-2{
+    width: 20%;
+   margin-left: 10%;
+    
+    float: left;
+    margin-top: 5%;  
+}
+/* quinta-foto */
+.trasferisci{
+    width:20%;
+    
+    margin-left: 10%;
+    float: left;
+    margin-top: 5%;
+     
+}
+/* sesta-foto */
+.fotocamera{
+    width:20%;
+   
+    margin-left: 10%;
+    float: left;
+    margin-top:5%;  
+}
+
 /* inizio sezione team */
+.team-section{
+    padding-top: 35%;
+}
 
 .title-team{
-    width: 83.333%;
-    max-width: 1100px;
+    /* width: 83.333%; */
+    max-width: 1600px;
+    padding-bottom: 5%;
+    margin:auto;
+    paddin
+    
 }
 .numero-team{
+   
     
-    margin-left: 20%;
     max-width: 58.5%;
-    font-size:50px;
+    font-size:70px;
 }
 .scopri-di-piu{
     padding-top: 30px;
@@ -885,8 +872,86 @@ slack-zoom a{
 }
 footer{
     width: 100vw;
-    height: 600px;
+    height: 700px;
     background-color: black;
+    position: relative;
+}
+
+.prima-colonna{
+    width: calc(100%/6 );
+    height: 400px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    
+}
+.first-title{
+font-size:35px;
+padding-top: 35%;
+}
+.first{
+   font-size:20px;
+   padding-top: 8%;
+  
+}
+.seconda-colonna{
+    width: calc(100%/6 );
+    height: 400px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 22%;  
+}
+.terza-colonna{
+    width: calc(100%/6 );
+    height: 400px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 42%;   
+}
+.quarta-colonna{
+    width: calc(100%/6 );
+    height: 400px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 58%; 
+}
+.quinta-colonna{
+    width: calc(100%/6 );
+    height: 400px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 76%; 
+}
+.riga-footer{
+    color: white;
+    position: absolute;
+    top:85%;
+    width: 9%;
+    margin-left: 8%;
+    
+    
+}
+.descrizione-footer{
+    color:white;
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    font-size: 30px;
+}
+.mondo-text{
+   color: white;
+   font-size: 20px;
+}
+.foot-arrow{
+    position: absolute;
+    top:33% ;
+    left:110%;
+    
 }
 
 
