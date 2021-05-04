@@ -205,37 +205,44 @@ main img {
 
 .business{
     height: 1400px;
-    position:relative;
+   margin-top: 10%;
+    
+    width: 100vw;
     
 }
 .piano-dropbox{
+   width: 80%;
    
-    position: absolute;
     
     
-    top: 280px;
-    left: 150px;
-    font-size: 40px;
+    
+    margin: auto;
+   
+    font-size: 43px;
 
 }
 .scelta{
-    position: absolute;
-    top: 400px;
-    left: 150px;
+    width: 80%;
+    margin: auto;
     font-size: 23px;
+    margin-top: 2%;
+    margin-bottom: 3%;
    
    
 }
+
 .annuale{
     margin-left: 18px;
 }
 .prima-tabella{
-    height: 900px;
+    
     
     border: 1px solid #b4d0e7 ;
-    position: absolute;
-    left: 150px;
-    top:500px
+    width:calc(100%/3 - 10%);
+    float:left;
+   margin-left: 10%;
+   margin-right: 5%;
+   
 }
 .singolo{
 text-align: center;
@@ -271,45 +278,48 @@ padding: 20px;
     margin-left: 10px;
 }
 .seconda-tabella{
-    height: 900px;
-    
+   
     border: 1px solid #b4d0e7 ;
-    position: absolute;
-    left: 600px;
-    top:500px 
+    float: left;
+    width:calc(100%/3 - 10%);
+    margin-right: 5%;
+    
 }
 .terza-tabella{
-    height: 900px;
+    
     
     border: 1px solid #b4d0e7 ;
-    position: absolute;
-    left: 1050px;
-    top:500px  
+    float:left;
+    width:calc(100%/3 - 10%);
+    
+   
 }
 .acquista-ora a{
     text-decoration: underline;
     color: #0061ff;
 }
 /* sezione colonna orizzonatke */
-
-.colonna-orizzontale{
-    text-align: center;
-    
-    margin-top: 100px;
-    width: 100%;
-   
+.container-colonna-orizzontale{
+    margin: auto;
+    width: 100vw;
 }
+
 .contenuto-colonna-orizzontale{
     border: 1px solid #b4d0e7  ;  
-    width: 1250px; 
-    margin-left: 150px;
+    width: 80%;
+    margin:auto;
     position: relative;
+    
     
 }
 
 .team{
     padding: 20px;
+    text-align: center;
     
+}
+.righetta{
+    color:#b4d0e7 ;
 }
 .enterprise{
     padding: 15px 15px;
@@ -322,7 +332,7 @@ padding: 20px;
 .ufficio{
     padding: 15px 15px;
     text-align: left;
-  font-size: 20px;
+    font-size: 20px;
 }
 .soluzioni{
     padding: 15px 15px;
@@ -332,8 +342,9 @@ padding: 20px;
     padding: 15px 15px;
     text-align: right;
     position: absolute;
-    top: 90px;
-    right: 30px;
+    right: 2%;
+    top: 45%;
+   
     background-color:#0061ff ;
 }
 .contatta-ufficio a{
@@ -503,7 +514,7 @@ slack-zoom a{
 
 .title-team{
     width: 83.333%;
-    max-width: 1080px;
+    max-width: 1100px;
 }
 .numero-team{
     
@@ -515,7 +526,7 @@ slack-zoom a{
     padding-top: 30px;
     font-size: 20px;
     color: #0061ff;
-    margin-bottom: 10%;
+    
 }
 .clearfix::after{
     content: "";
@@ -737,9 +748,10 @@ slack-zoom a{
     background-color:rgb(230, 224, 224) ;
 }
 .domande-frequenti{
-    height: 900px;
+    
     width: 100vw;
     position: relative;
+    margin-bottom: 150px;
     
 }
 .text-question{
@@ -851,6 +863,11 @@ slack-zoom a{
 }
 .quarto-text-question:hover .freccia-giu{
     display: none;
+}
+footer{
+    width: 100vw;
+    height: 600px;
+    background-color: black;
 }
 
 
